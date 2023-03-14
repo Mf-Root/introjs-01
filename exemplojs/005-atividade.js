@@ -3,9 +3,9 @@ let entrada = require('prompt-sync')();
 let n, n1, n2, media;
 
 n = entrada ('Digite o 1º nota: ');
-n1 = parseInt(n);
+n1 = parseFloat(n);
 n = entrada('Digite o 2º note: ');
-n2 = parseInt(n);
+n2 = parseFloat(n);
 
 media = (n1 + n2) / 2
 

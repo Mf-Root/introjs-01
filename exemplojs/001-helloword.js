@@ -27,4 +27,6 @@ if (ehArray === true ) {
 } else {                            // Mesma função que o operador ternario.
     console.log('Não é um Array');
 }
-
+        
+//console.log('objeto');
+console.log(endereco)
